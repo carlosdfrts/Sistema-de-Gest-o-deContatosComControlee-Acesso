@@ -27,6 +27,8 @@ O projeto implementa um fluxo completo de cadastro e gerenciamento, incluindo au
 - Cadastro, edição e exclusão de usuários  
 - Senhas armazenadas no banco
 
+---
+
 ## Segurança
 
 As credenciais dos usuários não são armazenadas em texto puro no banco de dados.
