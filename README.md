@@ -39,6 +39,8 @@ Tecnologia utilizada:
 
 **BCrypt**
 
+---
+
 ### Contatos
 - Criar novos contatos  
 - Editar contatos  
