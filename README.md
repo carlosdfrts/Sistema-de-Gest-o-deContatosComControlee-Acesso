@@ -27,6 +27,18 @@ O projeto implementa um fluxo completo de cadastro e gerenciamento, incluindo au
 - Cadastro, edição e exclusão de usuários  
 - Senhas armazenadas no banco
 
+## Segurança
+
+As credenciais dos usuários não são armazenadas em texto puro no banco de dados.
+
+As senhas são protegidas utilizando hash criptográfico com BCrypt, garantindo que mesmo em caso de acesso ao banco de dados, as senhas não possam ser recuperadas diretamente.
+
+O processo de autenticação realiza a comparação entre a senha informada pelo usuário e o hash armazenado no banco.
+
+Tecnologia utilizada:
+
+**BCrypt**
+
 ### Contatos
 - Criar novos contatos  
 - Editar contatos  
